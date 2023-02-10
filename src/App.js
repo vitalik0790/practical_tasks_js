@@ -1,6 +1,7 @@
 import Dupes from "./tasks/Dupes";
 import Flatten from "./tasks/Flatten";
 import Frequency from "./tasks/Frequency";
+import Rotate from "./tasks/Rotate";
 import Unique from "./tasks/Unique";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Flatten />
       <Dupes />
       <Frequency />
+      <Rotate />
     </div>
   );
 }
